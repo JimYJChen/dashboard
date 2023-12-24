@@ -1,0 +1,60 @@
+/* 全局背景颜色和字体颜色 */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 链接样式 */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 按钮样式 */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* 表格样式 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  /* 在小屏幕上进行样式调整 */
+  /* 示例：调整字体大小或缩小边距 */
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  /* 更多响应式样式 */
+}
